@@ -29,7 +29,7 @@ target_include_directories(mylib
 )
 
 set_target_properties(test_ip_filter  PROPERTIES
-    #COMPILE_DEFINITIONS BOOST_TEST_DYN_LINK
+    COMPILE_DEFINITIONS BOOST_TEST_DYN_LINK
     INCLUDE_DIRECTORIES ${Boost_INCLUDE_DIR}
 )
 
