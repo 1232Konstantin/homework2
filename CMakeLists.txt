@@ -2,17 +2,14 @@ cmake_minimum_required(VERSION 3.10)
 
 
 
-if (MSVC)
 
-    set (BOOST_ROOT "G:/boost_1_83_0/boost_1_83_0/") # Путь к библиотеке Boost
-    #set (CMAKE_CXX_STANDARD 20) 
-    set (Boost_NO_SYSTEM_PATHS ON)
-    #set (Boost_USE_MULTITHREADED ON)
-    set (Boost_USE_STATIC_LIBS ON)
-    set (Boost_USE_STATIC_RUNTIME OFF)
-    set (BOOST_ALL_DYN_LINK OFF)
+#set (BOOST_ROOT "G:/boost_1_83_0/boost_1_83_0/") # Путь к библиотеке Boost
+#set (Boost_NO_SYSTEM_PATHS ON)
+#set (Boost_USE_STATIC_LIBS ON)
+#set (Boost_USE_STATIC_RUNTIME OFF)
+#set (BOOST_ALL_DYN_LINK OFF)
 
-endif()  
+
 
 set(PROJECT_VESRION 0.0.1)
 project(ip_filter VERSION ${PROJECT_VESRION})
